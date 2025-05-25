@@ -1,16 +1,50 @@
-# Breast Cancer Ananlysis
-A machine learning project focused on analyzing and predicting breast cancer using the Wisconsin dataset. This includes data preprocessing, visualization, and model building to classify tumors as benign or malignant.
+# 🧬 Cancer Prediction Project
 
-### Features :
-+ Data cleaning and preprocessing
-+ Exploratory Data Analysis (EDA)
-+ Feature correlation and selection
-+ Multiple ML models (Logistic Regression, SVM, KNN, Random Forest)
-+ Model evaluation metrics (accuracy, precision, recall)
+This project uses machine learning to predict breast cancer using various classification models. It includes ROC curve visualization, feature importance analysis, and a test input interface for prediction.
 
-### Dataset :
-UCI Breast Cancer Wisconsin (Diagnostic)
+## 📂 Project Structure
 
-### Objective :
-To explore the dataset and build accurate prediction models for early breast cancer detection.
+```
+.
+├── 1_setup_imports.py
+├── 2_data_loading.py
+├── 3_data_split.py
+├── 4_model_definitions.py
+├── 5_model_training_evaluation.py
+├── 6_input_prediction.py
+├── 7_visualizations.py
+├── requirements.txt
+└── README.md
+```
 
+## 📊 Models Used
+
+- Linear Regression
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- SVM
+- k-NN
+- XGBoost
+
+## 🚀 How to Run
+
+1. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. Run scripts in order:
+    - Start from `1_setup_imports.py` to `7_visualizations.py`
+    - You can also run the complete logic in a Jupyter Notebook
+
+## 🔮 Features
+
+- Model evaluation with accuracy, precision, recall, AUC
+- ROC Curve for visual comparison
+- Feature importance visualization
+- User input for real-time prediction
+
+## 📬 Contact
+
+Made with 💙 for REW1 submission.

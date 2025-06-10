@@ -27,6 +27,10 @@ This project uses machine learning to predict breast cancer using various classi
 - k-NN
 - XGBoost
 
+- The visualization of the project can be found in oncology_analysis.pbix file .
+  
+- The data used for both model training and visualization is available in .csv files.
+
 ## 🚀 How to Run
 
 1. Install dependencies:
